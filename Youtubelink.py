@@ -19,7 +19,7 @@ if choice=="a":
     print("Open Downloads and Under YoutubeAudios, You will find the audio")
     
 
-
+ # download the video and store it in a folder called "YoutubeVideos" inside the downloads folder
 if choice=="v":
     video=YouTube(link)
     downloads_path = str(Path.home() / "Downloads")
